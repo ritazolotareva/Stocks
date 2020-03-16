@@ -13,7 +13,7 @@ buyingCommission = percentageOf(value=expenses, percent=commission)
 income = expenses + profit + buyingCommission # we want to sell stocks to get profit and pay over all commissions
 sellingCommission = percentageOf(income, commission)
 finalStocksCost = income + sellingCommission
-finalStockPrice = finalStocksCost / stocksAmount
-print(finalStockPrice)
 
 # output
+finalStockPrice = finalStocksCost / stocksAmount
+print(finalStockPrice)
